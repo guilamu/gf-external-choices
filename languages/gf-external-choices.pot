@@ -1,0 +1,207 @@
+# Copyright (C) 2026 Guillaume
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms External Choices 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/guilamu/gf-external-choices/issues\n"
+"POT-Creation-Date: 2026-01-14 15:50+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Manual\n"
+"X-Domain: gf-external-choices\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms External Choices"
+msgstr ""
+
+#. Description of the plugin
+msgid "Populate Gravity Forms Multiple Choice fields from external CSV, JSON, or XLSX data sources."
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "External Choices"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Populate choices from an external CSV or JSON file. The file can be from a URL or uploaded to your Media Library."
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Source Type"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Manual (Default)"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "External URL"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Media Library"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "URL"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Media File"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "No file selected"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Select File"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Label Column/Property"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "-- Select Column --"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Value Column/Property"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Refresh Frequency"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Hourly"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Daily"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "Force Refresh"
+msgstr ""
+
+#: includes/class-field-settings.php
+msgid "File selected (ID: "
+msgstr ""
+
+#: includes/class-data-fetcher.php
+msgid "URL is empty."
+msgstr ""
+
+#: includes/class-data-fetcher.php
+#, php-format
+msgid "Failed to fetch URL: %s"
+msgstr ""
+
+#: includes/class-data-fetcher.php
+#, php-format
+msgid "HTTP error: %d"
+msgstr ""
+
+#: includes/class-data-fetcher.php
+#, php-format
+msgid "File exceeds maximum size of %s."
+msgstr ""
+
+#: includes/class-data-fetcher.php
+msgid "Media file not found."
+msgstr ""
+
+#: includes/class-data-fetcher.php
+msgid "Failed to read media file."
+msgstr ""
+
+#: includes/class-csv-parser.php
+msgid "CSV data is empty."
+msgstr ""
+
+#: includes/class-csv-parser.php
+msgid "CSV must have a header row and at least one data row."
+msgstr ""
+
+#: includes/class-csv-parser.php
+msgid "No valid choices found in CSV."
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "JSON data is empty."
+msgstr ""
+
+#: includes/class-json-parser.php
+#, php-format
+msgid "JSON parse error: %s"
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "JSON must be an array at the root level."
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "JSON array is empty."
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "JSON must contain flat objects only. Nested objects are not supported in this version."
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "No valid choices found in JSON."
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "JSON must be a non-empty array."
+msgstr ""
+
+#: includes/class-json-parser.php
+msgid "JSON array must contain objects."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "XLSX must have a header row and at least one data row."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "No valid choices found in XLSX."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "XLSX file is empty."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "PHP ZipArchive extension is required for XLSX support."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "XLSX file not found."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "Failed to open XLSX file."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "No worksheet found in XLSX file."
+msgstr ""
+
+#: includes/class-xlsx-parser.php
+msgid "Failed to parse worksheet XML."
+msgstr ""
+
+#: includes/class-github-updater.php
+msgid "Unable to rename the update folder. Please retry or update manually."
+msgstr ""

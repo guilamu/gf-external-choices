@@ -1,0 +1,90 @@
+/**
+ * Field settings styles for Gravity Forms External Choices.
+ *
+ * @package GF_External_Choices
+ */
+
+/* Row layout */
+.gf-external-choices-row {
+    margin-bottom: 15px;
+}
+
+.gf-external-choices-row>label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* URL input - full width */
+.gf-external-choices-url-field input[type="url"] {
+    width: 100%;
+}
+
+/* Column mapping layout */
+.gf-external-choices-mapping {
+    display: flex;
+    gap: 15px;
+}
+
+.gf-external-choices-column {
+    flex: 1;
+}
+
+.gf-external-choices-column label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gf-external-choices-column select {
+    width: 100%;
+}
+
+/* Media selector */
+.gf-external-choices-media-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gf-external-choices-filename {
+    flex: 1;
+    padding: 5px 10px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Refresh row */
+.gf-external-choices-refresh-controls {
+    display: flex;
+    gap: 15px;
+}
+
+.gf-external-choices-refresh-controls select {
+    width: 100%;
+}
+
+.gf-external-choices-refresh-controls button {
+    width: 100%;
+}
+
+/* Button states */
+.gf-external-choices-row button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+    .gf-external-choices-mapping {
+        flex-direction: column;
+    }
+
+    .gf-external-choices-refresh {
+        flex-wrap: wrap;
+    }
+
+    .gf-external-choices-media-selector {
+        flex-wrap: wrap;
+    }
+}
