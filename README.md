@@ -75,6 +75,9 @@ The Gravity Forms editor loads choices from saved data. After configuring extern
 
 ## Changelog
 
+### 1.0.1
+- **New:** Added Guilamu Bug Reporter integration for easy bug reporting
+
 ### 1.0.0
 - **New:** Initial release
 - **New:** CSV support with auto-detection of delimiters and encoding

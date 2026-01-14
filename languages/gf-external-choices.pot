@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms External Choices 1.0.0\n"
+"Project-Id-Version: Gravity Forms External Choices 1.0.1\n"
 "Report-Msgid-Bugs-To: https://github.com/guilamu/gf-external-choices/issues\n"
 "POT-Creation-Date: 2026-01-14 15:50+0100\n"
 "MIME-Version: 1.0\n"
